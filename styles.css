@@ -1,7 +1,6 @@
 
 /* Universal */
 body {
-  padding: 0 50px;
 }
 
 .header {
@@ -315,7 +314,7 @@ body {
 /* crew */
 
 #crew-page-heading {
-  margin: 80px auto 0 28%;
+  margin: 80px auto 0 45%;
   padding: 50px 0 35px 0;
 }
 
