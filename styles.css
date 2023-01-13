@@ -93,7 +93,7 @@
 .home-banner {
   color: white;
   position: relative;
-  margin-top: 14%;
+  margin-top: 23%;
   padding: 50px 0 50px 50px;
   display: flex;
   justify-content: space-between;
@@ -137,6 +137,13 @@
     padding-left: auto;
   }
 }
+
+@media only screen and (max-width: 715px) {
+  .buttoncontainer {
+    margin-top: 25px;
+  }
+}
+
 
 .uni-text {
   font-family: sans-serif;
