@@ -1,5 +1,9 @@
 /* Universal */
 
+body {
+  display: grid;
+}
+
 .header {
   width: 100%;
   display: flex;
@@ -108,14 +112,16 @@
 @media (max-width: 900px) {
   .home-banner {
     flex-direction: column;
-    margin-top: 10%;
     align-items: center;
+    justify-content: center;
   }
   .leftside {
     align-items: center;
+    width: auto;
   }
   .buttoncontainer {
     margin: 51px auto 0 auto;
+    width: auto;
   }
   .uni-text p {
     text-align: center;
@@ -143,7 +149,6 @@
     margin-top: 25px;
   }
 }
-
 
 .uni-text {
   font-family: sans-serif;
