@@ -99,6 +99,12 @@
   justify-content: space-between;
 }
 
+@media (min-width: 900px) {
+  .home-banner {
+    margin-top: 14%;
+  }
+}
+
 @media (max-width: 900px) {
   .home-banner {
     flex-direction: column;
